@@ -1,0 +1,15 @@
+﻿<Window x:Class="DB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF1611EA">
+        <TextBox x:Name="TextArea" HorizontalAlignment="Left" Height="420" TextWrapping="Wrap" Text="Text Area" VerticalAlignment="Top" Width="658" Margin="136,0,-0.4,0"/>
+        <Button x:Name="SeeAssets" Content="See Assets" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Height="92" Click="SeeAssets_Click"/>
+        <Button x:Name="SeeEmployees" Content="See Employees" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="0,92,0,0" Height="88" Click="SeeEmployees_Click"/>
+
+    </Grid>
+</Window>
